@@ -1,0 +1,118 @@
+/* Reset default */
+*{
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  
+}
+
+/* body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #c0bbbb;
+  color: white;
+ 
+} */
+.container{
+  
+  /* height: 80%;
+  width: 90%; */
+  background-color: rgb(5, 5, 5);
+box-shadow: 0 0 50px  #00ffff;
+ font-family: 'Poppins', sans-serif;
+ 
+ 
+}
+
+/*Header*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 20px 60px; */
+  background: #0f0f0f;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+    flex-direction: row;
+        justify-content: center;
+    margin-top: 10 px;
+   flex-direction: row;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  display: flex;
+  transition: color 0.3s ease;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav a:hover {
+  color: #00ffff;
+}
+span{
+  color: #00ffff;
+}
+
+/* Hero Section */
+.portfolio{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  color: white;
+}
+
+.text {
+  max-width: 600px;
+  color: white;
+}
+
+.text h1 {
+  font-size: 48px;
+  margin: 10px 0;
+  color: white;
+}
+
+.text b{
+  color: #00ffff;
+}
+
+.text p {
+  margin: 20px 0;
+  line-height: 1.6;
+  color: white;
+}
+
+
+/* Hero Image */
+.image img {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 30px #00ffff;
+}
+/* Footer Social Buttons */
+footer {
+  margin-top: 40px;
+  text-align: center;
+}
+.icon{
+  height: 100px;
+  width: 100px;
+  border-radius:50%
+  
+
+
+}
+

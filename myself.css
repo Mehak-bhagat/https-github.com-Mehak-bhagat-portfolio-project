@@ -1,0 +1,136 @@
+
+#offer{
+  display: flex;
+   justify-content: center;
+   background-color: black;
+}
+/* About Section Styling */
+#about {
+  background-color: #0d0d0d;
+  color: #e0e0e0;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #1a1a1a;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+}
+
+.about-container h2 {
+  font-size: 36px;
+  color: #00ffff;
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #00ffff;
+  padding-bottom: 10px;
+}
+
+.about-container h3 {
+  font-size: 22px;
+  color: #00e6e6;
+  margin-top: 25px;
+}
+
+.about-container p,
+.about-container ul {
+  font-size: 17px;
+  line-height: 1.7;
+  margin-top: 10px;
+}
+
+.about-container ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.about-container ul li::before {
+  content: "• ";
+  color: #00ffff;
+  margin-right: 6px;
+}
+/* General Page Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000; /* Black background */
+  color: #fff;            /* White text */
+}
+
+/* Container for layout */
+.container {
+  max-width: 700px;
+  margin: 80px auto;
+  padding: 40px;
+  background-color: #111;
+  border: 2px solid aqua;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+/* Name Heading */
+.container h1 {
+  color: aqua;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Info box */
+.info-box {
+  background-color: #1c1c1c;
+  padding: 25px;
+  border-radius: 10px;
+  border-left: 4px solid aqua;
+}
+
+.info-box p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.info-box a {
+  color: aqua;
+  text-decoration: none;
+}
+
+.info-box a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+}
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+    flex-direction: row;
+        justify-content: center;
+    margin-top: 10 px;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  display: flex;
+  transition: color 0.3s ease;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav a:hover {
+  color: #00ffff;
+}
